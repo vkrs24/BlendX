@@ -19,12 +19,8 @@ function Login_Component() {
     if (user) {
       alert("Login Successful!");
       Navigate("/home");
-      setEmail("");
-      setPassword("");
     } else {
       alert("Invalid Email or Password");
-      setEmail("");
-      setPassword("");
     }
   }
   return (
@@ -44,7 +40,7 @@ function Login_Component() {
                 placeholder="Email"
                 required
                 value={email}
-                onChange={(e) => setEmailId(e.target.value)}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <input
                 type="password"
