@@ -12,8 +12,8 @@
 .SignUp_Box,
 .SignUp_Box_Link {
   width: 100%;
-  max-width: 300px; /* Prevent excessive width */
-  padding: 2rem;
+  max-width: 300px;
+  padding: 2rem 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;

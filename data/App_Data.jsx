@@ -1,7 +1,9 @@
+import { React, useState } from "react";
+
 export const posts_data = [
   {
     user_id: 1,
-    user_name: "Vasanthakumar D",
+    user_name: "nameis_Vasanth",
     user_profile_image: "",
     post_image: "/Images/spy.jpg",
     post_date: "MMDDYYY",
@@ -10,7 +12,7 @@ export const posts_data = [
   },
   {
     user_id: 2,
-    user_name: "Vasanthakumar D",
+    user_name: "name_sruthi",
     user_profile_image: "",
     post_image: "/Images/spy.jpg",
     post_date: "MMDDYYY",
@@ -19,7 +21,7 @@ export const posts_data = [
   },
   {
     user_id: 3,
-    user_name: "Vasanthakumar D",
+    user_name: "Danny",
     user_profile_image: "",
     post_image: "/Images/spy.jpg",
     post_date: "MMDDYYY",
@@ -28,7 +30,7 @@ export const posts_data = [
   },
   {
     user_id: 4,
-    user_name: "Vasanthakumar D",
+    user_name: "vicky",
     user_profile_image: "",
     post_image: "/Images/spy.jpg",
     post_date: "MMDDYYY",
@@ -37,7 +39,7 @@ export const posts_data = [
   },
   {
     user_id: 5,
-    user_name: "Vasanthakumar D",
+    user_name: "namis_Vk",
     user_profile_image: "",
     post_image: "/Images/spy.jpg",
     post_date: "MMDDYYY",
@@ -46,7 +48,7 @@ export const posts_data = [
   },
   {
     user_id: 6,
-    user_name: "Vasanthakumar D",
+    user_name: "Rock_Star",
     user_profile_image: "",
     post_image: "/Images/spy.jpg",
     post_date: "MMDDYYY",
@@ -56,10 +58,11 @@ export const posts_data = [
 ];
 
 export const login_data = [
-  { user_id: 1, email_id: "vasanth.vkrs@gmail.com", password: "@12345" },
-  { user_id: 2, email_id: "mybusiness.vkrs@gmail.com", password: "@12345" },
-  { user_id: 3, email_id: "vas.rs@gmail.com", password: "@12345" },
-  { user_id: 4, email_id: "santh.ks@gmail.com", password: "@12345" },
-  { user_id: 5, email_id: "vasnth.vk@gmail.com", password: "@12345" },
-  { user_id: 6, email_id: "vasanth.vrs@gmail.com", password: "@12345" },
+  {
+    user_id: 1,
+    name: "Vasanthakumar",
+    user_name: "nameis_vasnth",
+    email: "vasanth.vkrs@gmail.com",
+    password: "@12345",
+  },
 ];

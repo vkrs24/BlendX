@@ -6,21 +6,25 @@ import "../styles/login_component.css";
 
 function Login_Component() {
   const [userdata, setUserData] = useState(login_data);
-  const [emailId, setEmailId] = useState("");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const Navigate = useNavigate();
 
   function handleUserValidation(event) {
     event.preventDefault();
     const user = userdata.find(
-      (user) => user.email_id === emailId && user.password === password
+      (user) => user.email === email && user.password === password
     );
 
     if (user) {
       alert("Login Successful!");
       Navigate("/home");
+      setEmail("");
+      setPassword("");
     } else {
       alert("Invalid Email or Password");
+      setEmail("");
+      setPassword("");
     }
   }
   return (
@@ -39,7 +43,7 @@ function Login_Component() {
                 id="email"
                 placeholder="Email"
                 required
-                value={emailId}
+                value={email}
                 onChange={(e) => setEmailId(e.target.value)}
               />
               <input
