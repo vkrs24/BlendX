@@ -17,6 +17,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.389);
+  gap: 1rem; /* Improved spacing */
 }
 
 .App_logo {
@@ -38,16 +39,15 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem; /* Improved spacing */
 }
 
 #email,
 #password {
-  min-width: 100%;
+  width: 100%; /* Fixed responsiveness */
   padding: 0.5rem;
   border: none;
-  font-size: 100%;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  font-size: 1rem; /* Fixed unit */
   border-radius: 5px;
 }
 
@@ -56,33 +56,31 @@ form {
   padding: 0.5rem;
   color: white;
   border: none;
-  font-size: 100%;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+  font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
   background-color: rgb(4, 99, 182);
-  transition: opacity 0.3s;
+  transition: filter 0.3s; /* Improved hover effect */
 }
 
 .Login_Btn:hover {
-  opacity: 0.6;
+  filter: brightness(90%);
 }
 
 .LogIn_Box a {
-  font-size: 100%;
+  font-size: 1rem;
   color: white;
   text-decoration: none;
 }
 
 .LogIn_Box_Link {
   margin-top: 1vh;
-  padding: 0.5;
+  padding: 0.5rem; /* Fixed incorrect padding */
 }
 
 .LogIn_Box_Link p,
 .LogIn_Box_Link p a {
-  font-size: 100%;
+  font-size: 1rem;
   color: white;
   text-decoration: none;
   margin-top: 1vh;
@@ -90,70 +88,66 @@ form {
 }
 
 .LogIn_Box_Link p a {
-  font-size: 110%;
+  font-size: 1.1rem;
   color: rgb(4, 99, 182);
   font-weight: bold;
 }
 
 /* LogIn section ends */
 
-/* Media Quries */
+/* Media Queries */
 
 @media screen and (max-width: 1024px) {
   /* LogIn section starts */
 
   .LogIn_Box,
   .LogIn_Box_Link {
-    width: auto;
+    width: 100%;
+    max-width: 250px;
     padding: 1rem 2rem;
   }
 
   .LogIn_Box .App_logo img {
-    width: 3rem;
+    width: 2.5rem; /* Slightly smaller for smaller screens */
   }
 
   .LogIn_Box .App_logo h1 {
     font-size: 200%;
-    color: white;
     margin-left: 0.5vw;
   }
 
   #email,
   #password {
-    min-width: 100%;
+    width: 100%;
     padding: 0.5rem;
-    font-size: 100%;
+    font-size: 1rem;
     border-radius: 5px;
   }
 
   .Login_Btn {
     width: 100%;
     padding: 0.5rem;
-    font-size: 100%;
+    font-size: 1rem;
     border-radius: 10px;
   }
 
   .LogIn_Box a {
-    font-size: 90%;
+    font-size: 0.9rem; /* Responsive scaling */
   }
+
   .LogIn_Box_Link {
-    width: auto;
-    padding: 1.5rem 2.15rem;
+    padding: 1.5rem 2rem;
   }
 
   .LogIn_Box_Link p,
   .LogIn_Box_Link p a {
-    font-size: 100%;
-    color: white;
-    text-decoration: none;
+    font-size: 0.9rem;
     margin-top: 1vh;
     margin-bottom: 1vh;
   }
 
   .LogIn_Box_Link p a {
-    font-size: 100%;
-    color: rgb(4, 99, 182);
-    font-weight: bold;
+    font-size: 0.9rem;
   }
 
   /* LogIn section ends */

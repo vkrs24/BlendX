@@ -137,16 +137,17 @@ form {
 
   .SignUp_Box_Link p,
   .SignUp_Box_Link p a {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: white;
     text-decoration: none;
     margin: 1vh 0;
   }
 
   .SignUp_Box_Link p a {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: rgb(4, 99, 182);
     font-weight: bold;
     text-align: center;
+    word-wrap: break-word;
   }
 }
