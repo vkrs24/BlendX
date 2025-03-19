@@ -136,6 +136,10 @@ form {
   .LogIn_Box a {
     font-size: 90%;
   }
+  .LogIn_Box_Link {
+    width: auto;
+    padding: 1.5rem 2.15rem;
+  }
 
   .LogIn_Box_Link p,
   .LogIn_Box_Link p a {

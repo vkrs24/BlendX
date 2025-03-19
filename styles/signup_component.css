@@ -134,4 +134,19 @@ form {
   .SignUp_Box a {
     font-size: 0.9rem;
   }
+
+  .SignUp_Box_Link p,
+  .SignUp_Box_Link p a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    margin: 1vh 0;
+  }
+
+  .SignUp_Box_Link p a {
+    font-size: 1rem;
+    color: rgb(4, 99, 182);
+    font-weight: bold;
+    text-align: center;
+  }
 }
