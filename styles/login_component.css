@@ -11,7 +11,8 @@
 
 .LogIn_Box,
 .LogIn_Box_Link {
-  width: auto;
+  width: 100%;
+  max-width: 250px;
   padding: 2rem 4rem;
   display: flex;
   flex-direction: column;
@@ -60,22 +61,29 @@ form {
   border-radius: 5px;
   cursor: pointer;
   background-color: rgb(4, 99, 182);
-  transition: filter 0.3s; /* Improved hover effect */
+  transition: opacity 0.3s; /* Improved hover effect */
 }
 
 .Login_Btn:hover {
-  filter: brightness(90%);
+  opacity: 0.6;
+}
+
+.LogIn_Box_Link {
+  margin-top: 1vh;
+  width: 100%;
+  max-width: 250px;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.389);
+  gap: 1rem; /* Improved spacing */
 }
 
 .LogIn_Box a {
   font-size: 1rem;
   color: white;
   text-decoration: none;
-}
-
-.LogIn_Box_Link {
-  margin-top: 1vh;
-  padding: 0.5rem; /* Fixed incorrect padding */
 }
 
 .LogIn_Box_Link p,
@@ -88,7 +96,7 @@ form {
 }
 
 .LogIn_Box_Link p a {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: rgb(4, 99, 182);
   font-weight: bold;
 }
