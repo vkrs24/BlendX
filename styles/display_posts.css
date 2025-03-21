@@ -135,10 +135,10 @@
 }
 
 .User_Name p {
-  font-size: 120%;
+  font-size: 125%;
   margin: 0;
   font-weight: bold;
-  margin-left: 1vw;
+  margin-left: 0.5vw;
 }
 
 .Post_Middle_Content .Post_Image {
@@ -191,14 +191,14 @@
 }
 
 .Post_Bottom_Content .Post_Bottom_Content_Right_Section .Post_Title {
-  font-size: 100%;
+  font-size: 120%;
   font-weight: bold;
   word-wrap: break-word;
   margin: 0 0 1vh 0;
 }
 
 .Post_Bottom_Content .Post_Bottom_Content_Right_Section .Post_Date {
-  font-size: 100%;
+  font-size: 70%;
   margin: 0;
 }
 
@@ -302,7 +302,7 @@
   }
 
   .Post_Bottom_Content .Post_Bottom_Content_Right_Section {
-    margin-left: 4vw;
+    margin-left: 2vw;
   }
 
   .Post_Bottom_Content .Post_Bottom_Content_Right_Section .Post_Title {
@@ -371,7 +371,7 @@
   .User_Name p {
     font-size: 100%;
     margin: 0;
-    margin-left: 2vw;
+    margin-left: 2.5vw;
     padding: 0;
   }
 
